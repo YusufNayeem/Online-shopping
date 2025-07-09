@@ -1,0 +1,221 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background:rgb(255, 202, 178);
+    padding-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 20px 20px .2px rgba(0, 0, 0, 0.13) ;
+}
+.navdiv{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    margin-left: 25px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    transition: 0.3s;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.search{
+    height: 40px;
+    width: 500px;
+    border: none;
+    border-radius:15px;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+.search:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow:5px 5px 5px .2px rgba(0, 0, 0, 0.253) ;
+}
+.search::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: coral;
+    font-size: 18px;
+    margin-right: 60px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+li a:hover{
+    transition: 0.3s;
+    color: black;
+}
+button.login{
+    background-color: azure;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+button.login:hover{
+    background-color: coral;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
+button a{
+    color: black;
+    font-weight: 100%;
+}
+#home{
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 150px;
+    margin-left: 700px;
+} 
+#home span{
+    color: coral;
+}
+#home h5{
+    color: rgb(0, 0, 0);
+    font-weight:500;
+}
+#home p{
+    font-weight: 500;
+    text-align: center;
+    margin-right: 700px;
+}
+#home button{
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 60px;
+    width: 150px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+#home button:hover{
+    background-color: coral;
+    transition: 0.3s;
+}
+.row{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.rowl{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rowl img{
+    margin-top: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.rowl button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.rowl button:hover{
+    color: coral;
+    transition: 0.3s;
+    background: none;
+    border-bottom: 2px solid coral;
+    padding: 2.5px;
+    transition: 0.3s;
+}
+.container_text h3{
+    text-align: center;
+}
+.container_text p{
+    text-align: center;
+}
+.container_text hr{
+    width: 20px;
+    margin-left: 950px;
+    color: coral;
+}
+.rowa{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.rowa h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowa h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowa button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.rowa button:hover{
+    background-color: coral;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    transition: 0.3s;
+}
+.rowa .star{
+    color: rgb(255, 145, 0);
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.rowa img{
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+}
+.rowa img:hover{
+    transform: scale(1.08);
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
