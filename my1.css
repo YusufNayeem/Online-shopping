@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Emilys Candy, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+    background-position: center;
+    backdrop-filter: blur(2px);
+}
+.container{
+    width: 420px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.425);
+    backdrop-filter: blur(20px);
+    color: rgb(232, 97, 48);
+    border-radius: 20px;
+    padding: 30px 40px;
+    transition: 0.3s;
+}
+.container:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+.container h1{
+    font-size: 40px;
+    text-align: center;
+}
+.container .inputbox{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin: 30px 40px;
+}
+.inputbox input{
+    height: 50px;
+    width: 75%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 127, 80, 0.527);
+    padding: 20px 20px 20px 20px;
+    transition: 0.5s;
+}
+.inputbox input:hover{
+    box-shadow: 0 0 100px rgba(216, 68, 0, 0.705);
+    
+}
+.inputbox input::placeholder{
+    color: coral;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container a{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container a:hover{
+    text-decoration: underline;
+    color: rgb(232, 97, 48);
+}
+.container .login{
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family: Emilys Candy, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100px;
+    background-color: rgb(232, 97, 48);
+    cursor: pointer;
+    box-shadow: 0 0 100px rgb(128, 122, 122);
+    transition: 0.3s;
+}
+.container .login:hover{
+    background-color: rgba(7, 120, 212, 0.842);
+    box-shadow: 0 10px 50px rgba(7, 120, 212, 0.842);
+    scale: 1.04;
+}

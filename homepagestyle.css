@@ -4,10 +4,13 @@
     padding: 0;
 }
 .navbar{
-    background:rgb(255, 202, 178);
+    background:coral;
     padding-left: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-shadow: 0 20px 20px .2px rgba(0, 0, 0, 0.13) ;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
 }
 .navdiv{
     height: 85px;
@@ -49,7 +52,7 @@ li{
     display: inline-block;
 }
 li a{
-    color: coral;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     margin-right: 60px;
     font-weight: bold;
@@ -71,7 +74,7 @@ button.login{
     transition: 0.3s ease;
 }
 button.login:hover{
-    background-color: coral;
+    background-color: rgb(255, 183, 157);
     transition: 0.3s ease;
     transform: scale(1.1);
     box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
@@ -118,8 +121,8 @@ button a{
     transition: 0.3s;
 }
 .row{
-    margin-left: 150px;
-    margin-top: 100px;
+    margin-left: 330px;
+    margin-top: 150px;
 }
 .rowl{
     display: flex;
@@ -131,6 +134,11 @@ button a{
     margin-top: 150px;
     border-radius: 15px;
     cursor: pointer;
+    transition: .3s;
+}
+.rowl img:hover{
+    transform: translateY(-5px);
+    transition: .3s;
 }
 .rowl button{
     margin-top: 20px;
@@ -156,9 +164,12 @@ button a{
     transition: 0.3s;
 }
 .container_text h3{
+    margin-top: 100px;
+    font-size: 3rem;
     text-align: center;
-}
+    }
 .container_text p{
+    font-size: 2rem;
     text-align: center;
 }
 .container_text hr{
@@ -218,4 +229,179 @@ button a{
     transform: scale(1.08);
     transition: 0.3s;
     box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
+.rowb{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.rowb h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowb h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowb button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.rowb button:hover{
+    background-color: coral;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    transition: 0.3s;
+}
+.rowb .star{
+    color: rgb(255, 145, 0);
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.rowb img{
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+}
+.rowb img:hover{
+    transform: scale(1.08);
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
+.rowc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.rowc h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowc h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowc button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.rowc button:hover{
+    background-color: coral;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    transition: 0.3s;
+}
+.rowc .star{
+    color: rgb(255, 145, 0);
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.rowc img{
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+}
+.rowc img:hover{
+    transform: scale(1.08);
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
+.base{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    margin-top: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.base .col1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.base .col1 h3{
+    font-size: 3rem;
+    color: coral;
+}
+.col1 .icons{
+    padding-top: 20px;
+    transition: 0.3s;
+}
+.icons span{
+    padding: 10px;
+}
+.base .col2{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.base .col2 h3{
+    font-size: 3rem;
+    color: coral;
+}
+.col2 .email{
+    padding: 10px;
+}
+.col2 .email input{
+    height: 30px;
+    width: 460px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.col2 .email input:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.col2 .email input::placeholder{
+    color: white
+}
+.col2 .quarry input{
+    height: 230px;
+    width: 560px;
+    outline: none;
+    border: none;
+    background: rgb(87, 87, 87);
+    border-radius: 10px;
+    transition: 0.3s;
+    color: white;
+}
+.col2 .quarry input:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.col2 .quarry input::placeholder{
+    color: rgba(255, 255, 255, 0.541)
 }
