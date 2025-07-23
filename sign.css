@@ -15,23 +15,31 @@ body{
     backdrop-filter: blur(2px);
 }
 .container{
-    width: 420px;
+    width: 700px;
     border: 2px solid rgba(255, 255, 255, .2);
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.425);
     backdrop-filter: blur(20px);
     color: rgb(232, 97, 48);
     border-radius: 20px;
     padding: 30px 40px;
+    transition: 0.3s;
+}
+.container:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.425);
 }
 .container h1{
     font-size: 40px;
     text-align: center;
+    margin-top: 50px;
 }
 .container .inputbox{
     position: relative;
     height: 30px;
     width: 100%;
     margin: 30px 40px;
+    padding-top: 50px;
 }
 .inputbox input{
     height: 50px;
@@ -41,16 +49,16 @@ body{
     font-size: 16px;
     border-radius: 10px;
     background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.479);
+    border: 2px solid coral;
     padding: 20px 20px 20px 20px;
     transition: 0.5s;
 }
 .inputbox input:hover{
     box-shadow: 0 0 100px rgba(216, 68, 0, 0.705);
-    
+    transition: 0.3s;
 }
 .inputbox input::placeholder{
-    color: rgba(255, 255, 255, 0.705);
+    color: coral;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -66,6 +74,7 @@ body{
     color: rgb(232, 97, 48);
 }
 .container .login{
+    margin-top: 50px;
     height: 50px;
     width: 100%;
     border-radius: 20px;
@@ -80,7 +89,8 @@ body{
     transition: 0.3s;
 }
 .container .login:hover{
-    background-color: rgba(66, 243, 22, 0.842);
-    box-shadow: 0 10px 50px rgb(135, 175, 88);
+    background-color: rgba(7, 120, 212, 0.842);
+    box-shadow: 0 10px 50px rgba(7, 120, 212, 0.842);
     scale: 1.04;
+    transition: 0.3s;
 }

@@ -88,4 +88,5 @@ body{
     background-color: rgba(7, 120, 212, 0.842);
     box-shadow: 0 10px 50px rgba(7, 120, 212, 0.842);
     scale: 1.04;
+    transition: 0.3s;
 }

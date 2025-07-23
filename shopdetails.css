@@ -1,0 +1,563 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background:coral;
+    padding-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 20px 20px .2px rgba(0, 0, 0, 0.13) ;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+.navdiv{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    margin-left: 25px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    transition: 0.3s;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.search{
+    height: 40px;
+    width: 500px;
+    outline: none;
+    border: none;
+    border-radius:15px;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+.search:focus{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow:5px 5px 5px .2px rgba(0, 0, 0, 0.253) ;
+}
+.search::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-right: 60px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+li a:hover{
+    transition: 0.3s;
+    color: black;
+}
+button.login{
+    background-color: azure;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+button.login:hover{
+    background-color: rgb(255, 183, 157);
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
+button a{
+    color: black;
+    font-weight: 100%;
+}
+#home{
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 150px;
+    margin-left: 700px;
+} 
+#home span{
+    color: coral;
+}
+#home h5{
+    color: rgb(0, 0, 0);
+    font-weight:500;
+}
+#home p{
+    font-weight: 500;
+    text-align: center;
+    margin-right: 700px;
+}
+#home button{
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 60px;
+    width: 150px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+#home button:hover{
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    background-color: coral;
+    transition: 0.3s;
+}
+.row{
+    margin-left: 330px;
+    margin-top: 150px;
+}
+.rowl{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rowl img{
+    margin-top: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+.rowl img:hover{
+    transform: translateY(-5px);
+    transition: .3s;
+}
+.rowl button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.rowl button:hover{
+    color: coral;
+    transition: 0.3s;
+    background: none;
+    border-bottom: 2px solid coral;
+    padding: 2.5px;
+    transition: 0.3s;
+}
+.container_text h3{
+    margin-top: 100px;
+    font-size: 3rem;
+    text-align: center;
+    }
+.container_text p{
+    font-size: 2rem;
+    text-align: center;
+}
+.container_text hr{
+    width: 20px;
+    margin-left: 950px;
+    color: coral;
+}
+.rowa{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.rowa h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowa h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowa button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.rowa button:hover{
+    background-color: coral;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    transition: 0.3s;
+}
+.rowa .star{
+    color: rgb(255, 145, 0);
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.rowa img{
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+}
+.rowa img:hover{
+    transform: scale(1.08);
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
+.rowb{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.rowb h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowb h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowb button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.rowb button:hover{
+    background-color: coral;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    transition: 0.3s;
+}
+.rowb .star{
+    color: rgb(255, 145, 0);
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.rowb img{
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+}
+.rowb img:hover{
+    transform: scale(1.08);
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
+.rowc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.rowc h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowc h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowc button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.rowc button:hover{
+    background-color: coral;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    transition: 0.3s;
+}
+.rowc .star{
+    color: rgb(255, 145, 0);
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.rowc img{
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+}
+.rowc img:hover{
+    transform: scale(1.08);
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
+.containerone{
+    margin-top: 150px;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+}
+.hero-content h2{
+    font-size: 2.5rem;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: fadeInUp 1.5s ease;
+}
+.hero-content h2 span{
+    color: coral;
+}
+.hero-content p{
+    font-size: 1rem;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    animation: fadeInUp 1.5s ease;
+}
+.hero-content button{
+    margin-left: 590px;
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    animation: fadeInUp 1.5s ease;
+}
+.hero-content button:hover{
+    background-color: coral;
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+}
+.heroimg img{
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s;
+    animation: fadeInRight 1.5s ease;
+}
+.heroimg img:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    transition: 0.3s;
+}
+.detailcol1{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 80px;
+    padding-bottom: 20px;
+}
+.det1 img{
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.det1 img:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    transition: 0.3s;
+}
+.imggroup{
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+.imggroup .det11 img{
+    cursor: pointer;
+}
+.detailscol2 {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.detailscol2 h6{
+    color: rgb(214, 214, 214);
+}
+.detailscol2 h3{
+    color: coral;
+}
+.detailscol2 p{
+    font-size: 1.2rem;
+}
+.detailscol2 .dropbox{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: coral;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.detailscol2 .dropbox:hover{
+    box-shadow: 5px 5px 5px .2px rgba(0, 0, 0, 0.253);
+    transition: 0.3s;
+}
+.base{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    margin-top: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.base .col1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.base .col1 h3{
+    font-size: 3rem;
+    color: coral;
+}
+.col1 .icons{
+    padding-top: 20px;
+    transition: 0.3s;
+}
+.icons span{
+    padding: 10px;
+}
+.icons .facebook{
+    transition: 0.3s;
+}
+.icons .facebook:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.icons .insta{
+    transition: 0.3s;
+}
+.icons .insta:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.icons .wp{
+    transition: 0.3s;
+}
+.icons .wp:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.base .col2{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.base .col2 h3{
+    font-size: 3rem;
+    color: coral;
+}
+.col2 .email{
+    padding: 10px;
+}
+.col2 .email input{
+    padding-left: 15px;
+    height: 30px;
+    width: 460px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.col2 .email input:focus{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.col2 .email input::placeholder{
+    color: white
+}
+.col2 .quarry input{
+    padding-left: 15px;
+    height: 190px;
+    width: 560px;
+    outline: none;
+    border: none;
+    background: rgb(87, 87, 87);
+    border-radius: 10px;
+    transition: 0.3s;
+    color: white;
+}
+.col2 .quarry input:focus{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.col2 .quarry input::placeholder{
+    color: rgba(255, 255, 255, 0.541)
+}
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }    
+}
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
