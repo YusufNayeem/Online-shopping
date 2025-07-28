@@ -429,6 +429,7 @@ button a{
 }
 .row1 .img1{
     transition: 0.3s;
+    border-radius: 15px;
 }
 .row1 :hover .img1{
     transform: scale(1.1) rotate(-2deg);
@@ -441,6 +442,7 @@ button a{
 }
 .row1 .img2{
     transition: 0.3s;
+    border-radius: 15px;
 }
 .row1 :hover .img2{
     transform: scale(1.1) rotate(-2deg);
@@ -480,6 +482,7 @@ button a{
 }
 .row2 .img11{
     transition: 0.3s;
+    border-radius: 15px;
 }
 .row2 :hover .img11{
     transform: scale(1.1) rotate(-2deg);
@@ -492,6 +495,7 @@ button a{
 }
 .row2 .img21{
     transition: 0.3s;
+    border-radius: 15px;
 }
 .row2 .img21:hover {
     transform: scale(1.1) rotate(-2deg);
